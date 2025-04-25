@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrabajadoresActivos</title>
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+
+<body>
+  <div class="top-background"></div>
+  <header class="header"></header>
+  <div class="barra-regreso">
+    <button onclick="history.back()">← Atrás</button>
+  </div>
+
+  <div class="app">
+    <h2 class="subtitulo">Selecciona la opción que<br>deseas consultar:</h2>
+    <main class="container">
+      <form class="formulario" onsubmit="validarCredenciales(event)">
+        <h2 class="titulo">Trabajador activo</h2>
+        <button type="button" class="btn-secundario" onclick="location.href='../activo/actualizacion_info.html'">Actualización
+          deinformación</button>
+        <button type="button" class="btn-secundario" onclick="location.href='../activo/registro_supervivencia.html'">Registro
+          desupervivencia</button>
+        <button type="button" class="btn-secundario" onclick="location.href='../activo/cambios.html'">Cambios</button>
+        <h1 class="titulo"><br>Pensionado</h1>
+        <button type="button" class="btn-secundario" onclick="location.href='../pensionado/act_documento.html'">Cambios y
+          Actualizaciones</button>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>

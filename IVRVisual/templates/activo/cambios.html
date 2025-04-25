@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrabajadoresActivos</title>
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+
+<body>
+  <div class="top-background"></div>
+  <header class="header"></header>
+  <div class="barra-regreso">
+    <button onclick="history.back()">Atrás</button>
+    <button onclick="window.location.href='../login.html'">Inicio</button>
+  </div>
+
+  <div class="app">
+    <main class="container">
+      <h2 class="subtitulo">Consulta a continuación el paso<br>a paso para realizar tu proceso</h2>
+      <div class="titulo-container">Paso a paso CAMBIO<br>CUENTA BANCARIA</div>
+      <div class="imagen-container"></div>
+      <form class="formulario" onsubmit="validarCredenciales(event)">
+        <h2 class="subtitulo">¿Ha sido claro el proceso<br>para ti?</h2>
+        <button type="button" class="btn-secundario" onclick="location.href='correo_encuesta.html'">Si</button>
+        <button type="button" class="btn-secundario">No</button>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
